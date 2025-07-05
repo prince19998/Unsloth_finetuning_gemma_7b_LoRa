@@ -56,11 +56,7 @@ outputs = model.generate(**inputs, max_new_tokens=256, use_cache=True, do_sample
 print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 ```
 
----
 
-## More Information
-
-- For detailed model configuration, special tokens, and adapter settings, see the [model card in `gemma-7b-chatgpt-prompts/README.md`](gemma-7b-chatgpt-prompts/README.md).
 - For questions about Unsloth, see the [Unsloth GitHub](https://github.com/unslothai/unsloth).
 
 ---
